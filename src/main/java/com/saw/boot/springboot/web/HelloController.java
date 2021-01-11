@@ -1,11 +1,11 @@
 package com.saw.boot.springboot.web;
 
-//import org.springframework.web.bind.annotation.GetMapping;
-//import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-//@RestController
+@RestController
 public class HelloController {
-//    @GetMapping("/hello")
+    @GetMapping("/hello")
     public String hello() {
         return "hello";
     }
