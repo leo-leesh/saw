@@ -5,8 +5,6 @@ import com.saw.boot.springboot.domain.posts.Posts;
 import com.saw.boot.springboot.domain.posts.PostsRepository;
 import com.saw.boot.springboot.web.dto.PostsSaveRequestDto;
 import com.saw.boot.springboot.web.dto.PostsUpdateRequestDto;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +16,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.util.List;
